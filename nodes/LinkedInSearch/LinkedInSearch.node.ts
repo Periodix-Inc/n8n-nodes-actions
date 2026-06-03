@@ -52,8 +52,8 @@ function statusLabel(status: ConnectionStatus): string {
 export class LinkedInSearch implements INodeType {
 	description: INodeTypeDescription = {
 		name: 'linkedInSearch',
-		displayName: 'Periodix LinkedIn Search',
-		description: 'Search LinkedIn People, Companies, Posts, and Jobs (Classic or Sales Navigator) by URL',
+		displayName: 'Periodix LinkedIn & Sales Navigator Search',
+		description: 'Search LinkedIn & Sales Navigator — People, Companies, Posts, and Jobs',
 		icon: 'file:icon.svg',
 		group: ['transform'],
 		version: [1],

@@ -1,6 +1,6 @@
 {
     "name": "@periodix/n8n-nodes-actions",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "n8n community nodes for the Periodix Actions API",
     "license": "MIT",
     "homepage": "https://periodix.net",
@@ -39,7 +39,13 @@
             "dist/credentials/PeriodixActionsApi.credentials.js"
         ],
         "nodes": [
-            "dist/nodes/LinkedInSearch/LinkedInSearch.node.js"
+            "dist/nodes/LinkedInSearch/LinkedInSearch.node.js",
+            "dist/nodes/LinkedInGetProfile/LinkedInGetProfile.node.js",
+            "dist/nodes/LinkedInGetCompanyProfile/LinkedInGetCompanyProfile.node.js",
+            "dist/nodes/LinkedInGetUserPosts/LinkedInGetUserPosts.node.js",
+            "dist/nodes/LinkedInGetPostComments/LinkedInGetPostComments.node.js",
+            "dist/nodes/LinkedInGetPostReactions/LinkedInGetPostReactions.node.js",
+            "dist/nodes/LinkedInGetConnections/LinkedInGetConnections.node.js"
         ]
     },
     "devDependencies": {

@@ -1,0 +1,18 @@
+{
+	"node": "@periodix/n8n-nodes-actions.linkedInGetUserPosts",
+	"nodeVersion": "1",
+	"codexVersion": "1.0",
+	"categories": ["Sales", "Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://actions.periodix.net"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://actions.periodix.net"
+			}
+		]
+	}
+}
